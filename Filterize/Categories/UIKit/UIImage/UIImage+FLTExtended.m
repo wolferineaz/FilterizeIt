@@ -22,9 +22,12 @@
 
 - (UIImage *) flt_filterize: (NSString *) filterName {
     NSLog(@"name = %@", filterName);
+    CIContext *imageContext = [CIContext contextWithOptions:nil];
     CIFilter *filter = [CIFilter filterWithName: filterName];
     [filter setValue: [CIImage imageWithCGImage: self.CGImage] forKey: kCIInputImageKey];
-    return [UIImage imageWithCIImage: filter.outputImage];
+    CIImage *ciImage = filter.outputImage;
+    CGImageRef cgImageRef = [imageContext createCGImage: ciImage fromRect: [ciImage extent]];
+    return [UIImage imageWithCGImage: cgImageRef];
 }
 
 + (instancetype) flt_flamingo {
@@ -33,6 +36,18 @@
 
 + (instancetype) flt_header {
     return [UIImage imageNamed: @"header"];
+}
+
++ (instancetype) flt_ic_share {
+    return [UIImage imageNamed: @"ic_share"];
+}
+
+- (instancetype) flt_rendered {
+    return [self imageWithRenderingMode: UIImageRenderingModeAlwaysTemplate];
+}
+
+- (instancetype) flt_original {
+    return [self imageWithRenderingMode: UIImageRenderingModeAlwaysOriginal];
 }
 
 @end

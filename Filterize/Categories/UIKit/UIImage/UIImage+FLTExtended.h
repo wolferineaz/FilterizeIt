@@ -18,4 +18,10 @@
 
 + (instancetype) flt_header;
 
++ (instancetype) flt_ic_share;
+
+- (instancetype) flt_rendered;
+
+- (instancetype) flt_original;
+
 @end

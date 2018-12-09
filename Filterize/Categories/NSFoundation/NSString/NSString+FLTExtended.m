@@ -20,8 +20,6 @@
              @"CIColorMonochrome",
              @"CIColorPosterize",
              @"CIFalseColor",
-             @"CIMaximumComponent",
-             @"CIMinimumComponent",
              @"CIPhotoEffectChrome",
              @"CIPhotoEffectFade",
              @"CIPhotoEffectInstant",

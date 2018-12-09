@@ -37,6 +37,8 @@
 - (void) configureNavigationBar {
     UIImageView *imageView = [[UIImageView alloc] initWithImage: [UIImage flt_header]];
     self.navigationItem.titleView = imageView;
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage: [UIImage flt_ic_share].flt_original style: UIBarButtonItemStylePlain target: self action: @selector(share)];
 }
 
 - (void) configureVariables {
@@ -54,6 +56,14 @@
     flow.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     [self.filtersCollection registerNib: [FilterCell flt_nib]
              forCellWithReuseIdentifier: [FilterCell flt_identifier]];
+}
+
+#pragma mark - Actions
+
+- (void) share {
+    NSArray *items = @[[UIImage imageWithCGImage: self.imageView.image.CGImage]];
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems: items applicationActivities: nil];
+    [self presentViewController: activityViewController animated: YES completion: nil];
 }
 
 #pragma mark - Collection View
