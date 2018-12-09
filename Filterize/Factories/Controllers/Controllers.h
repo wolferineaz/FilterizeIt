@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Controllers.h
 //  Filterize
 //
 //  Created by Tabriz Dzhavadov on 09/12/2018.
@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class StartViewController;
 
+@interface Controllers : NSObject
+
++ (instancetype) factory;
+
+- (UIViewController *) start;
 
 @end
-

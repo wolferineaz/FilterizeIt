@@ -1,0 +1,15 @@
+//
+//  Prefix.pch
+//  Filterize
+//
+//  Created by Tabriz Dzhavadov on 09/12/2018.
+//  Copyright © 2018 Tabriz Dzhavadov. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "Controllers.h"
+#import "Categories.h"
+
+#endif /* Prefix_pch */

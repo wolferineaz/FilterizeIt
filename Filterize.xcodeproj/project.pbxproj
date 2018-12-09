@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		7512224421BD266500CAFF81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512224321BD266500CAFF81 /* AppDelegate.m */; };
-		7512224721BD266500CAFF81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512224621BD266500CAFF81 /* ViewController.m */; };
-		7512224A21BD266500CAFF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7512224821BD266500CAFF81 /* Main.storyboard */; };
 		7512224C21BD266900CAFF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7512224B21BD266900CAFF81 /* Assets.xcassets */; };
 		7512224F21BD266900CAFF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7512224D21BD266900CAFF81 /* LaunchScreen.storyboard */; };
 		7512225221BD266900CAFF81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512225121BD266900CAFF81 /* main.m */; };
+		7512226221BD274A00CAFF81 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512226021BD274A00CAFF81 /* StartViewController.m */; };
+		7512226321BD274A00CAFF81 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7512226121BD274A00CAFF81 /* StartViewController.xib */; };
+		7512226821BD27B900CAFF81 /* Controllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512226721BD27B900CAFF81 /* Controllers.m */; };
+		7512227021BD292E00CAFF81 /* UIViewController+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */; };
+		7512227121BD292E00CAFF81 /* UIViewController+FLTExtended.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */; };
+		75CD104521BD30DF008EC25D /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104221BD30DF008EC25D /* SF-Pro-Display-Light.otf */; };
+		75CD104621BD30DF008EC25D /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104321BD30DF008EC25D /* SF-Pro-Display-Bold.otf */; };
+		75CD104721BD30DF008EC25D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104421BD30DF008EC25D /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7512223F21BD266500CAFF81 /* Filterize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filterize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7512224221BD266500CAFF81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7512224321BD266500CAFF81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7512224521BD266500CAFF81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7512224621BD266500CAFF81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7512224921BD266500CAFF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7512224B21BD266900CAFF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7512224E21BD266900CAFF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7512225021BD266900CAFF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7512225121BD266900CAFF81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7512225F21BD274A00CAFF81 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		7512226021BD274A00CAFF81 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		7512226121BD274A00CAFF81 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		7512226621BD27B900CAFF81 /* Controllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controllers.h; sourceTree = "<group>"; };
+		7512226721BD27B900CAFF81 /* Controllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controllers.m; sourceTree = "<group>"; };
+		7512226A21BD286400CAFF81 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7512226D21BD292E00CAFF81 /* UIViewController+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FLTExtended.h"; sourceTree = "<group>"; };
+		7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FLTExtended.m"; sourceTree = "<group>"; };
+		7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "UIViewController+FLTExtended.xib"; sourceTree = "<group>"; };
+		7512227221BD299300CAFF81 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		75CD104221BD30DF008EC25D /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		75CD104321BD30DF008EC25D /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		75CD104421BD30DF008EC25D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +74,115 @@
 		7512224121BD266500CAFF81 /* Filterize */ = {
 			isa = PBXGroup;
 			children = (
+				7512225A21BD26BC00CAFF81 /* Application */,
+				7512226421BD276500CAFF81 /* Categories */,
+				7512225821BD26A300CAFF81 /* Controllers */,
+				7512226521BD277000CAFF81 /* Factories */,
+				7512225C21BD26F700CAFF81 /* Resources */,
+				7512225D21BD270100CAFF81 /* System */,
+			);
+			path = Filterize;
+			sourceTree = "<group>";
+		};
+		7512225821BD26A300CAFF81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7512225B21BD26C800CAFF81 /* Start */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7512225A21BD26BC00CAFF81 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				7512224221BD266500CAFF81 /* AppDelegate.h */,
 				7512224321BD266500CAFF81 /* AppDelegate.m */,
-				7512224521BD266500CAFF81 /* ViewController.h */,
-				7512224621BD266500CAFF81 /* ViewController.m */,
-				7512224821BD266500CAFF81 /* Main.storyboard */,
+				7512226A21BD286400CAFF81 /* Prefix.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7512225B21BD26C800CAFF81 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7512225F21BD274A00CAFF81 /* StartViewController.h */,
+				7512226021BD274A00CAFF81 /* StartViewController.m */,
+				7512226121BD274A00CAFF81 /* StartViewController.xib */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		7512225C21BD26F700CAFF81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75CD104121BD30D6008EC25D /* Fonts */,
 				7512224B21BD266900CAFF81 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7512225D21BD270100CAFF81 /* System */ = {
+			isa = PBXGroup;
+			children = (
 				7512224D21BD266900CAFF81 /* LaunchScreen.storyboard */,
 				7512225021BD266900CAFF81 /* Info.plist */,
 				7512225121BD266900CAFF81 /* main.m */,
 			);
-			path = Filterize;
+			path = System;
+			sourceTree = "<group>";
+		};
+		7512226421BD276500CAFF81 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7512226B21BD290600CAFF81 /* UIKit */,
+				7512227221BD299300CAFF81 /* Categories.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7512226521BD277000CAFF81 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				7512226921BD27BD00CAFF81 /* Controllers */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		7512226921BD27BD00CAFF81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7512226621BD27B900CAFF81 /* Controllers.h */,
+				7512226721BD27B900CAFF81 /* Controllers.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7512226B21BD290600CAFF81 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7512226C21BD291300CAFF81 /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7512226C21BD291300CAFF81 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7512226D21BD292E00CAFF81 /* UIViewController+FLTExtended.h */,
+				7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */,
+				7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		75CD104121BD30D6008EC25D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				75CD104321BD30DF008EC25D /* SF-Pro-Display-Bold.otf */,
+				75CD104221BD30DF008EC25D /* SF-Pro-Display-Light.otf */,
+				75CD104421BD30DF008EC25D /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +242,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7512227121BD292E00CAFF81 /* UIViewController+FLTExtended.xib in Resources */,
+				75CD104521BD30DF008EC25D /* SF-Pro-Display-Light.otf in Resources */,
+				75CD104621BD30DF008EC25D /* SF-Pro-Display-Bold.otf in Resources */,
 				7512224F21BD266900CAFF81 /* LaunchScreen.storyboard in Resources */,
 				7512224C21BD266900CAFF81 /* Assets.xcassets in Resources */,
-				7512224A21BD266500CAFF81 /* Main.storyboard in Resources */,
+				75CD104721BD30DF008EC25D /* SF-Pro-Display-Regular.otf in Resources */,
+				7512226321BD274A00CAFF81 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7512224721BD266500CAFF81 /* ViewController.m in Sources */,
+				7512226221BD274A00CAFF81 /* StartViewController.m in Sources */,
 				7512225221BD266900CAFF81 /* main.m in Sources */,
 				7512224421BD266500CAFF81 /* AppDelegate.m in Sources */,
+				7512226821BD27B900CAFF81 /* Controllers.m in Sources */,
+				7512227021BD292E00CAFF81 /* UIViewController+FLTExtended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7512224821BD266500CAFF81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7512224921BD266500CAFF81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7512224D21BD266900CAFF81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,15 +396,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59233H6SA7;
-				INFOPLIST_FILE = Filterize/Info.plist;
+				DEVELOPMENT_TEAM = QD6MLW8G42;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Filterize/Application/Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Filterize/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = az.wolferine.Filterize;
+				PRODUCT_BUNDLE_IDENTIFIER = az.wolferine.Filterize.objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,15 +415,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59233H6SA7;
-				INFOPLIST_FILE = Filterize/Info.plist;
+				DEVELOPMENT_TEAM = QD6MLW8G42;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Filterize/Application/Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Filterize/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = az.wolferine.Filterize;
+				PRODUCT_BUNDLE_IDENTIFIER = az.wolferine.Filterize.objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
