@@ -9,6 +9,7 @@
 #import "Controllers.h"
 
 #import "StartViewController.h"
+#import "FilterViewController.h"
 
 @implementation Controllers
 
@@ -27,6 +28,12 @@
 
 - (UIViewController *) start {
     return [StartViewController new];
+}
+
+- (UIViewController *) filters: (UIImage *) image {
+    FilterViewController *filter = [FilterViewController new];
+    filter.image = image;
+    return filter;
 }
 
 @end

@@ -15,7 +15,17 @@
 		7512226321BD274A00CAFF81 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7512226121BD274A00CAFF81 /* StartViewController.xib */; };
 		7512226821BD27B900CAFF81 /* Controllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512226721BD27B900CAFF81 /* Controllers.m */; };
 		7512227021BD292E00CAFF81 /* UIViewController+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */; };
-		7512227121BD292E00CAFF81 /* UIViewController+FLTExtended.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */; };
+		756CFF7B21BD662F00A2A0C8 /* UIButton+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 756CFF7A21BD662F00A2A0C8 /* UIButton+FLTExtended.m */; };
+		756CFF7F21BD667500A2A0C8 /* UIColor+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 756CFF7E21BD667500A2A0C8 /* UIColor+FLTExtended.m */; };
+		75883ADE21BD3FCD00A88C73 /* FLTLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75883ADD21BD3FCD00A88C73 /* FLTLocalizable.strings */; };
+		75883AE321BD406B00A88C73 /* NSString+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AE221BD406B00A88C73 /* NSString+FLTExtended.m */; };
+		75883AE821BD49AC00A88C73 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AE621BD49AC00A88C73 /* FilterViewController.m */; };
+		75883AE921BD49AC00A88C73 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75883AE721BD49AC00A88C73 /* FilterViewController.xib */; };
+		75883AEE21BD4FF700A88C73 /* FilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AEC21BD4FF600A88C73 /* FilterCell.m */; };
+		75883AEF21BD4FF700A88C73 /* FilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75883AED21BD4FF600A88C73 /* FilterCell.xib */; };
+		75883AF321BD516D00A88C73 /* UIView+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AF221BD516D00A88C73 /* UIView+FLTExtended.m */; };
+		75883AF721BD529700A88C73 /* UIImage+FLTExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AF621BD529700A88C73 /* UIImage+FLTExtended.m */; };
+		75883AFB21BD578600A88C73 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75883AFA21BD578600A88C73 /* Filter.m */; };
 		75CD104521BD30DF008EC25D /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104221BD30DF008EC25D /* SF-Pro-Display-Light.otf */; };
 		75CD104621BD30DF008EC25D /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104321BD30DF008EC25D /* SF-Pro-Display-Bold.otf */; };
 		75CD104721BD30DF008EC25D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75CD104421BD30DF008EC25D /* SF-Pro-Display-Regular.otf */; };
@@ -37,8 +47,26 @@
 		7512226A21BD286400CAFF81 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		7512226D21BD292E00CAFF81 /* UIViewController+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FLTExtended.h"; sourceTree = "<group>"; };
 		7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FLTExtended.m"; sourceTree = "<group>"; };
-		7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "UIViewController+FLTExtended.xib"; sourceTree = "<group>"; };
 		7512227221BD299300CAFF81 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		756CFF7921BD662F00A2A0C8 /* UIButton+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FLTExtended.h"; sourceTree = "<group>"; };
+		756CFF7A21BD662F00A2A0C8 /* UIButton+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FLTExtended.m"; sourceTree = "<group>"; };
+		756CFF7D21BD667500A2A0C8 /* UIColor+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FLTExtended.h"; sourceTree = "<group>"; };
+		756CFF7E21BD667500A2A0C8 /* UIColor+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FLTExtended.m"; sourceTree = "<group>"; };
+		75883ADD21BD3FCD00A88C73 /* FLTLocalizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FLTLocalizable.strings; sourceTree = "<group>"; };
+		75883AE121BD406B00A88C73 /* NSString+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FLTExtended.h"; sourceTree = "<group>"; };
+		75883AE221BD406B00A88C73 /* NSString+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FLTExtended.m"; sourceTree = "<group>"; };
+		75883AE521BD49AC00A88C73 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		75883AE621BD49AC00A88C73 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		75883AE721BD49AC00A88C73 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		75883AEB21BD4FF600A88C73 /* FilterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterCell.h; sourceTree = "<group>"; };
+		75883AEC21BD4FF600A88C73 /* FilterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterCell.m; sourceTree = "<group>"; };
+		75883AED21BD4FF600A88C73 /* FilterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCell.xib; sourceTree = "<group>"; };
+		75883AF121BD516D00A88C73 /* UIView+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FLTExtended.h"; sourceTree = "<group>"; };
+		75883AF221BD516D00A88C73 /* UIView+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLTExtended.m"; sourceTree = "<group>"; };
+		75883AF521BD529700A88C73 /* UIImage+FLTExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FLTExtended.h"; sourceTree = "<group>"; };
+		75883AF621BD529700A88C73 /* UIImage+FLTExtended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FLTExtended.m"; sourceTree = "<group>"; };
+		75883AF921BD578600A88C73 /* Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		75883AFA21BD578600A88C73 /* Filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
 		75CD104221BD30DF008EC25D /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
 		75CD104321BD30DF008EC25D /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		75CD104421BD30DF008EC25D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
@@ -78,6 +106,7 @@
 				7512226421BD276500CAFF81 /* Categories */,
 				7512225821BD26A300CAFF81 /* Controllers */,
 				7512226521BD277000CAFF81 /* Factories */,
+				75883AF821BD577200A88C73 /* Model */,
 				7512225C21BD26F700CAFF81 /* Resources */,
 				7512225D21BD270100CAFF81 /* System */,
 			);
@@ -87,6 +116,7 @@
 		7512225821BD26A300CAFF81 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				75883AE421BD499900A88C73 /* Filter */,
 				7512225B21BD26C800CAFF81 /* Start */,
 			);
 			path = Controllers;
@@ -115,6 +145,7 @@
 		7512225C21BD26F700CAFF81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				75883ADC21BD3FB300A88C73 /* Localizable */,
 				75CD104121BD30D6008EC25D /* Fonts */,
 				7512224B21BD266900CAFF81 /* Assets.xcassets */,
 			);
@@ -134,6 +165,7 @@
 		7512226421BD276500CAFF81 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				75883ADF21BD404C00A88C73 /* NSFoundation */,
 				7512226B21BD290600CAFF81 /* UIKit */,
 				7512227221BD299300CAFF81 /* Categories.h */,
 			);
@@ -160,6 +192,10 @@
 		7512226B21BD290600CAFF81 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				756CFF7C21BD665D00A2A0C8 /* UIColor */,
+				756CFF7821BD661900A2A0C8 /* UIButton */,
+				75883AF421BD528600A88C73 /* UIImage */,
+				75883AF021BD515B00A88C73 /* UIView */,
 				7512226C21BD291300CAFF81 /* UIViewController */,
 			);
 			path = UIKit;
@@ -170,9 +206,99 @@
 			children = (
 				7512226D21BD292E00CAFF81 /* UIViewController+FLTExtended.h */,
 				7512226E21BD292E00CAFF81 /* UIViewController+FLTExtended.m */,
-				7512226F21BD292E00CAFF81 /* UIViewController+FLTExtended.xib */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		756CFF7821BD661900A2A0C8 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				756CFF7921BD662F00A2A0C8 /* UIButton+FLTExtended.h */,
+				756CFF7A21BD662F00A2A0C8 /* UIButton+FLTExtended.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		756CFF7C21BD665D00A2A0C8 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				756CFF7D21BD667500A2A0C8 /* UIColor+FLTExtended.h */,
+				756CFF7E21BD667500A2A0C8 /* UIColor+FLTExtended.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		75883ADC21BD3FB300A88C73 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				75883ADD21BD3FCD00A88C73 /* FLTLocalizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		75883ADF21BD404C00A88C73 /* NSFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				75883AE021BD405700A88C73 /* NSString */,
+			);
+			path = NSFoundation;
+			sourceTree = "<group>";
+		};
+		75883AE021BD405700A88C73 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				75883AE121BD406B00A88C73 /* NSString+FLTExtended.h */,
+				75883AE221BD406B00A88C73 /* NSString+FLTExtended.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		75883AE421BD499900A88C73 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				75883AEA21BD4FE200A88C73 /* Cell */,
+				75883AE521BD49AC00A88C73 /* FilterViewController.h */,
+				75883AE621BD49AC00A88C73 /* FilterViewController.m */,
+				75883AE721BD49AC00A88C73 /* FilterViewController.xib */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		75883AEA21BD4FE200A88C73 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				75883AEB21BD4FF600A88C73 /* FilterCell.h */,
+				75883AEC21BD4FF600A88C73 /* FilterCell.m */,
+				75883AED21BD4FF600A88C73 /* FilterCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		75883AF021BD515B00A88C73 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				75883AF121BD516D00A88C73 /* UIView+FLTExtended.h */,
+				75883AF221BD516D00A88C73 /* UIView+FLTExtended.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		75883AF421BD528600A88C73 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				75883AF521BD529700A88C73 /* UIImage+FLTExtended.h */,
+				75883AF621BD529700A88C73 /* UIImage+FLTExtended.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		75883AF821BD577200A88C73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75883AF921BD578600A88C73 /* Filter.h */,
+				75883AFA21BD578600A88C73 /* Filter.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		75CD104121BD30D6008EC25D /* Fonts */ = {
@@ -242,13 +368,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7512227121BD292E00CAFF81 /* UIViewController+FLTExtended.xib in Resources */,
 				75CD104521BD30DF008EC25D /* SF-Pro-Display-Light.otf in Resources */,
 				75CD104621BD30DF008EC25D /* SF-Pro-Display-Bold.otf in Resources */,
 				7512224F21BD266900CAFF81 /* LaunchScreen.storyboard in Resources */,
 				7512224C21BD266900CAFF81 /* Assets.xcassets in Resources */,
 				75CD104721BD30DF008EC25D /* SF-Pro-Display-Regular.otf in Resources */,
+				75883ADE21BD3FCD00A88C73 /* FLTLocalizable.strings in Resources */,
+				75883AE921BD49AC00A88C73 /* FilterViewController.xib in Resources */,
 				7512226321BD274A00CAFF81 /* StartViewController.xib in Resources */,
+				75883AEF21BD4FF700A88C73 /* FilterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756CFF7F21BD667500A2A0C8 /* UIColor+FLTExtended.m in Sources */,
 				7512226221BD274A00CAFF81 /* StartViewController.m in Sources */,
+				75883AE321BD406B00A88C73 /* NSString+FLTExtended.m in Sources */,
+				75883AF321BD516D00A88C73 /* UIView+FLTExtended.m in Sources */,
 				7512225221BD266900CAFF81 /* main.m in Sources */,
 				7512224421BD266500CAFF81 /* AppDelegate.m in Sources */,
+				756CFF7B21BD662F00A2A0C8 /* UIButton+FLTExtended.m in Sources */,
+				75883AE821BD49AC00A88C73 /* FilterViewController.m in Sources */,
+				75883AFB21BD578600A88C73 /* Filter.m in Sources */,
+				75883AEE21BD4FF700A88C73 /* FilterCell.m in Sources */,
 				7512226821BD27B900CAFF81 /* Controllers.m in Sources */,
 				7512227021BD292E00CAFF81 /* UIViewController+FLTExtended.m in Sources */,
+				75883AF721BD529700A88C73 /* UIImage+FLTExtended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

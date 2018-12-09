@@ -10,5 +10,10 @@
 #define Categories_h
 
 #import "UIViewController+FLTExtended.h"
+#import "NSString+FLTExtended.h"
+#import "UIView+FLTExtended.h"
+#import "UIImage+FLTExtended.h"
+#import "UIColor+FLTExtended.h"
+#import "UIButton+FLTExtended.h"
 
 #endif /* Categories_h */

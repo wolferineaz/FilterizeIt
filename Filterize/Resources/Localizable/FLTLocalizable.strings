@@ -1,0 +1,29 @@
+/* 
+  FLTLocalizable.strings
+  Filterize
+
+  Created by Tabriz Dzhavadov on 09/12/2018.
+  Copyright © 2018 Tabriz Dzhavadov. All rights reserved.
+*/
+"title_alert_pick_photo" = "Choose photo source";
+"button_camera" = "Camera";
+"button_gallery" = "Gallery";
+"button_cancel" = "Cancel";
+"filter_none" = "Normal";
+"button_filterize" = "Filterize It!";
+
+"CIFilterNone" = "Normal";
+"CIColorInvert" = "Invert";
+"CIColorMonochrome" = "Monochrome";
+"CIColorPosterize" = "Posterize";
+"CIFalseColor" = "FalseColor";
+"CIPhotoEffectChrome" = "Chrome";
+"CIPhotoEffectFade" = "Fade";
+"CIPhotoEffectInstant" = "Instant";
+"CIPhotoEffectMono" = "Mono";
+"CIPhotoEffectNoir" = "Noir";
+"CIPhotoEffectProcess" = "Process";
+"CIPhotoEffectTonal" = "Tonal";
+"CIPhotoEffectTransfer" = "Transfer";
+"CISepiaTone" = "SepiaTone";
+"CIVignette" = "Vignette";

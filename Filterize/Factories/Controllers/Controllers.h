@@ -16,4 +16,6 @@
 
 - (UIViewController *) start;
 
+- (UIViewController *) filters: (UIImage *) image;
+
 @end
