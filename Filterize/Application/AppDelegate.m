@@ -17,12 +17,20 @@
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [self configureAppearance];
+    
     UIViewController *startViewController = [Controllers.factory start];
     self.window = [UIWindow new];
     self.window.rootViewController = [startViewController flt_wrapToNavigation];
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (void) configureAppearance {
+    UIImage *back = [UIImage flt_ic_back].flt_original;
+    [[UINavigationBar appearance] setBackIndicatorImage: back];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage: back];
 }
 
 @end

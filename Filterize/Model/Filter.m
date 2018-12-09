@@ -42,9 +42,18 @@
     } else {
         __strong typeof(self) strongSelf = self;
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+            
+            CIContext *imageContext = [CIContext contextWithOptions: nil];
             CIFilter *filter = [CIFilter filterWithName: self.name];
             [filter setValue: [CIImage imageWithCGImage: self.input.CGImage] forKey: kCIInputImageKey];
-            strongSelf.output = [UIImage imageWithCIImage: filter.outputImage];
+            CIImage *ciImage = filter.outputImage;
+            CGImageRef cgImageRef = [imageContext createCGImage: ciImage fromRect: [ciImage extent]];
+            strongSelf.output = [UIImage imageWithCGImage: cgImageRef scale: self.input.scale orientation: self.input.imageOrientation];
+            
+            CGImageRelease(cgImageRef);
+            ciImage = nil;
+            filter = nil;
+            imageContext = nil;
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 block(strongSelf.output);

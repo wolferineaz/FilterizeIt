@@ -18,6 +18,10 @@
 
 @property (strong, nonatomic) NSArray <Filter *> *filters;
 
+@property (strong, nonatomic) Filter *filter;
+
+@property (strong, nonatomic) UIImage *preview;
+
 @end
 
 @implementation FilterViewController
@@ -42,8 +46,9 @@
 }
 
 - (void) configureVariables {
+    self.preview = [self.image flt_scaleProportionalToMaxSide: 300];
     self.filters = [Filter withNames: [NSString flt_filters] image: [UIImage flt_flamingo]];
-    self.imageView.image = self.image;
+    self.imageView.image = self.preview;
 }
 
 - (void) configureCollectionView {
@@ -61,9 +66,12 @@
 #pragma mark - Actions
 
 - (void) share {
-    NSArray *items = @[[UIImage imageWithCGImage: self.imageView.image.CGImage]];
-    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems: items applicationActivities: nil];
-    [self presentViewController: activityViewController animated: YES completion: nil];
+    Filter *filter = [Filter withName: self.filter.name image: self.image];
+    [filter loadImage:^(UIImage *image) {
+        NSArray *items = @[image];
+        UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems: items applicationActivities: nil];
+        [self presentViewController: activityViewController animated: YES completion: nil];
+    }];
 }
 
 #pragma mark - Collection View
@@ -88,8 +96,8 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
     [collectionView deselectItemAtIndexPath: indexPath animated: YES];
     
-    Filter *filter = self.filters[indexPath.row];
-    self.imageView.image = filter.isNormal ? self.image : [self.image flt_filterize: filter.name];
+    self.filter = self.filters[indexPath.row];
+    self.imageView.image = self.filter.isNormal ? self.preview : [self.preview flt_filterize: self.filter.name];
 }
 
 @end

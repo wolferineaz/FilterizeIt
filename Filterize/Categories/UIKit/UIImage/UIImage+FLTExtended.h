@@ -12,6 +12,8 @@
 
 + (instancetype) flt_imageWithColor :(UIColor*) color size:(CGSize) size;
 
+- (UIImage *) flt_scaleProportionalToMaxSide: (CGFloat) side;
+
 - (instancetype) flt_filterize: (NSString *) filterName;
 
 + (instancetype) flt_flamingo;
@@ -23,5 +25,7 @@
 - (instancetype) flt_rendered;
 
 - (instancetype) flt_original;
+
++ (instancetype) flt_ic_back;
 
 @end
